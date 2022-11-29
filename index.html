@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Graphicloads-Medical-Health-Prescription.ico" type="image/x-icon">
+    <title>cadastro pessoa</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        header{
+            background-color: rgb(250, 237, 178);
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(164, 138, 212);
+    
+        }
+        h3{
+            text-align: right;
+        }
+        footer{
+            text-align: center;
+            background-color:rgb(250, 237, 178);
+            color: rgb(164, 138, 212); 
+           
+        }
+        main{
+            background-color:rgb(255, 250, 225) ;
+        }
+        h4{
+            color: rgb(164, 138, 212);
+        }
+        div.centro{
+            text-align: center;
+        }
+    
+        body{
+            background-color:rgb(164, 138, 212);
+        }
+        
+        @media screen and (min-width: 480px)
+        {   
+            body,.header, footer{
+                margin: 10px 1.041667% 0 1.041667%;
+
+            }
+            .nav ul li{
+                width: 33.333333%;
+           
+            }
+            .column, .column2 {
+                margin: 10px 1.041667% 0 1.041667%;
+                
+            }
+            #f1{
+                width: 50%;
+                float: left;
+                
+
+            }
+        }
+        @media screen and (max-width: 480px){
+            body, .header,footer, h1{
+                width: 96.875%;
+                margin-right: 3.125%;
+                margin-top: lem;
+            }
+            .column{
+                margin: lem 0;
+                border-bottom: 1px dashed rgba(251, 244, 244, 0.961);
+                /* cor rgba */
+                margin-right: 3.125%;
+            }
+            .nav ul li{
+                width: 33%;
+            }
+            #fi, .column2{
+                width: 96.875%;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Customer Survey-amico.svg" height="12%" width="12%" alt="imagem cadastro">
+        <h2>Página de Cadastro pessoa</h2>
+        <br>
+    </header>
+    <main>
+        <h4>Cadastro</h4>
+        <form id="f1" class="column">
+            <label for="inome"><strong>Nome:</strong></label>
+            <input type="text" id="inome" >
+            <br><br>
+            <label for="icpf"><strong>CPF:</strong></label>
+            <input type="text" id="icpf" >
+
+            <br><br>
+
+
+            <label for="idata"> <strong>Data de Nascimento:</strong> </label>
+            <input type="date" name="data" id="idata">
+            <br><br>
+
+            <label for="isexo"> <strong>Sexo:</strong></label>
+           
+            <input type="checkbox" name="if" id="if">
+            <label for="if">feminino</label>
+
+            <input type="checkbox" name="im" id="im">
+            <label for="im">masculino</label>
+        </form>
+
+            
+
+            
+
+        <form class="column2">
+            <label for="is"><strong>Salário:</strong></label>
+            <input type="text" name="is" id="is">
+
+            <br><br>
+            
+            <label for="ie"><strong>E-mail:</strong></label>
+            <input type="email" name="ie" id="ie">
+            <input type="button" value="Incluir outro e-mail">
+            <br><br>
+
+
+            <label for="it"><strong>Telefone:</strong></label>
+            <input type="tel" name="it" id="it">
+            <input type="button" value="Incluir outro telefone">
+            <br><br>
+            <div id="c">
+                <input type="button" value="CADASTRAR"> 
+                <i class="material-icons">check</i>
+            </div>
+
+
+
+
+
+
+        </form>
+
+                
+                
+          
+                
+
+
+    
+
+    </main>
+    <footer>
+        <br>
+        ♥ ♥ ♥ ♥ ♥
+        <br>
+        <br>
+    </footer>
+    
+</body>
+</html>
+
+
